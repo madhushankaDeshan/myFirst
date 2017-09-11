@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chess Game</title>
+    <h1>Chess game</h1>
+</head>
+<style>
+
+    #div-main{
+        border: 50px groove rgba(10,12,8,0.86);
+        width: 800px;
+        height: 800px;
+        margin: 20px;
+        position: absolute;
+
+    }
+    .black{
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: #d19451;
+        display: table-cell;
+        vertical-align: middle;
+
+
+    }
+    .white{
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color:white;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .pieces{
+        height:70px;
+        width:70px;
+       padding: 15px;
+    }
+
+
+</style>
+<body>
+
+
+
+
+<div id="div-main">
+
+    <!--1st Line-->
+
+    <div class="white"><img src="images/black-pieces/rook-black.png"class="pieces"id="rook-black-1"></div>
+    <div class="black"><img src="images/black-pieces/knight-black.png"class="pieces"id="knight-black-1"></div>
+    <div class="white"><img src="images/black-pieces/bishop-black.png"class="pieces"id="bishop-black-1"></div>
+    <div class="black"><img src="images/black-pieces/king-black.png"class="pieces"id="king-black"></div>
+    <div class="white"><img src="images/black-pieces/queen-black.png"class="pieces"id="queen-black"></div>
+    <div class="black"><img src="images/black-pieces/bishop-black.png"class="pieces"id="bishop-black-2"></div>
+    <div class="white"><img src="images/black-pieces/knight-black.png"class="pieces"id="knight-black-2"></div>
+    <div class="black"><img src="images/black-pieces/rook-black.png"class="pieces"id="rook-black-2"></div>
+
+    <!--2nd Line-->
+
+    <div class="black"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-1"></div>
+    <div class="white"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-2"></div>
+    <div class="black"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-3"></div>
+    <div class="white"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-4"></div>
+    <div class="black"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-5"></div>
+    <div class="white"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-6"></div>
+    <div class="black"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-7"></div>
+    <div class="white"><img src="images/black-pieces/pown-black.png"class="pieces"id="pown-black-8"></div>
+
+
+    <!--3rd Line-->
+
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+
+
+    <!--4th Line-->
+
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+
+
+    <!--5th Line-->
+
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+
+    <!--6th Line-->
+
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+
+
+    <!--7th Line-->
+
+    <div class="white"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-1"></div>
+    <div class="black"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-2"></div>
+    <div class="white"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-3"></div>
+    <div class="black"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-4"></div>
+    <div class="white"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-5"></div>
+    <div class="black"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-6"></div>
+    <div class="white"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-7"></div>
+    <div class="black"><img src="images/white-pieces/pown-white.png"class="pieces"id="pown-white-8"></div>
+
+    <!--8th Line-->
+
+    <div class="black"><img src="images/white-pieces/rook-white.png"class="pieces"id="rook-white-1"></div>
+    <div class="white"><img src="images/white-pieces/knight-white.png"class="pieces"id="knight-white-1"></div>
+    <div class="black"><img src="images/white-pieces/bishop-white.png"class="pieces"id="bishop-white-1"></div>
+    <div class="white"><img src="images/white-pieces/King-white.ico"class="pieces"id="king-white"></div>
+    <div class="black"><img src="images/white-pieces/queen-white.png"class="pieces"id="queen-white"></div>
+    <div class="white"><img src="images/white-pieces/bishop-white.png"class="pieces"id="bishop-white-2"></div>
+    <div class="black"><img src="images/white-pieces/knight-white.png"class="pieces"id="knight-white-2"></div>
+    <div class="white"><img src="images/white-pieces/rook-white.png" class="pieces"id="rook-white-2"></div>
+
+
+
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/home-controller.js"></script>
+</body>
+</html>
